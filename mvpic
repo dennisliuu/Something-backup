@@ -1,0 +1,4 @@
+#!/bin/sh
+mv ~/Pictures/backgrounds/*.* /usr/share/backgrounds/
+printf "Done\n"
+#etc.
