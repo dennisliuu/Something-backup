@@ -1,0 +1,7 @@
+#!/bin/sh
+apt-get install vsftpd -y
+netstart -tul | grep ftp
+sleep 30
+vim /etc/vsftpd.conf
+#etc.
+
