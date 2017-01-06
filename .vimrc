@@ -15,6 +15,7 @@ filetype indent on
 :inoremap [ []<ESC>i
 :inoremap " ""<ESC>i
 :inoremap ' ''<ESC>i
+:inoremap < <><ESC>i
 if has("multi_byte")
   if &termencoding == ""
      let &termencoding = &encoding
