@@ -16,6 +16,10 @@ filetype indent on
 :inoremap " ""<ESC>i
 :inoremap ' ''<ESC>i
 :inoremap < <><ESC>i
+:inoremap main main(){return 0;}<ESC>i
+:inoremap cstdio #include<cstdio><ESC>i 
+:inoremap stdlib #include<stdlib><ESC>i
+:inoremap func int (){}<ESC>i
 if has("multi_byte")
   if &termencoding == ""
      let &termencoding = &encoding
