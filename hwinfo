@@ -1,0 +1,7 @@
+#!/bin/sh
+uptime -p
+printf "套件數："
+dpkg --list | wc -l
+df -h
+free -h
+#etc.

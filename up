@@ -6,5 +6,4 @@ apt autoclean
 apt clean
 dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge""""
 clear
-printf "Done\n"
 #etc.
