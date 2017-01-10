@@ -4,5 +4,6 @@ apt upgrade -y
 apt --purge autoremove -y
 apt autoclean
 apt clean
+sudo iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
 clear
 #etc.

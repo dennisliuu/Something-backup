@@ -2,6 +2,7 @@
 sudo apt remove --purge pantheon-camera -y
 sudo apt remove --purge pantheon-mail -y
 sudo apt remove --purge pantheon-print -y
+sudo apt install git -y
 sudo apt-get install g++ build-essential -y
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks -y && sudo apt-get update -y
