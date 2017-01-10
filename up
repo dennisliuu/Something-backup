@@ -4,6 +4,5 @@ apt upgrade -y
 apt --purge autoremove -y
 apt autoclean
 apt clean
-dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge""""
 clear
 #etc.
