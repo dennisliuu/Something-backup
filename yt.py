@@ -14,9 +14,10 @@ print("webm now is ok!")
 
 yes = input("Do you want to Format?(y/N)")
 
-if str(yes) == "y" :
-	typ = input("What type? ")
-	os.system("ffmpeg -i *.webm -acodec libmp3lame -aq 4 %s.%s" % (str(a),str(typ)))
-	os.system("rm *.webm")
+if str(yes) == "N":
+	exit()
 else:
+	typ = input("What type? ")	
+	os.system("ffmpeg -i *.webm -acodec libmp3lame -aq 4 %s.%s" % (str(a),str(typ)))	
+	os.system("rm *.webm")
 	exit()
