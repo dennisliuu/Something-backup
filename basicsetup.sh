@@ -17,7 +17,6 @@ sudo apt-get install im-config fcitx fcitx-chewing -y
 sudo im-config -s fcitx -z default
 sudo apt install bleachbit -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-wget https://atom.io/download/deb
 dpkg -i *.deb -y
 apt-get -f install
 sudo apt remove --purge vi -y
