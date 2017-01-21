@@ -5,6 +5,7 @@ import os
 print("")
 code = input("The youtube code: ")
 name = input("This song's name: ")
+name = name.replace(" ", "_")
 print("")
 
 os.system("youtube-dl -F https://www.youtube.com/watch?v=%s" % str(code))
@@ -23,6 +24,7 @@ else:
 	typ = input("What type?(mp3 as default) ")
 	if str(typ) == "":	
 		os.system("ffmpeg -i *.webm -acodec libmp3lame -aq 4 %s.mp3" % str(name))
+		os.system("rm %s.webm" % str(name))
 		os.system("mv %s.mp3 ~/Music" % str(name))
 		exit()
 
@@ -30,5 +32,4 @@ else:
 		os.system("ffmpeg -i *.webm -acodec libmp3lame -aq 4 %s.%s" % (str(name),str(typ)))	
 		os.system("rm %s.webm" % str(name))
 		os.system("mv %s.%s ~/Music" % (str(name),str(typ)))
-	exit()
 		exit()
