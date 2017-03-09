@@ -1,6 +1,7 @@
 #!/bin/sh
 apt update
 apt upgrade -y
+apt-get -f install
 apt --purge autoremove -y
 apt autoclean
 apt clean
