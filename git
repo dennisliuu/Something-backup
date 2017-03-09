@@ -1,6 +1,4 @@
 #!/bin/sh
-npm run build
-cp -R dist/* ../gitpage
 git add --all
 git commit -m "init"
 git push -u origin master
