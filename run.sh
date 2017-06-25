@@ -17,6 +17,9 @@ case ${1##*.} in
 	"python")
 		pytho3 ${1}
 		;;
+	"js")
+		node ${1}
+		;;
 	*)
 		echo "${1##*.} is unknow file types"
 		;;
