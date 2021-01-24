@@ -1,0 +1,1 @@
+<aside class="aside-right"><div class="navigation"><nav class="nav-main"><span class="pane-select history"><i></i><span>交易</span></span><span class="pane-select signals"><i></i><span>趨勢</span></span><span class="pane-select social"><i></i><span>社交</span></span></nav></div><div class="content"></div></aside>

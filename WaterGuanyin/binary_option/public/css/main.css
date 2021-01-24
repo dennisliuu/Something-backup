@@ -1,0 +1,108 @@
+#chart_con{
+    height:61vh;
+    /* margin-left:10vh; */
+}
+.nav-main{
+    height:100vh;
+}
+#infomation{
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    background:rgba(28,35,51,.6);
+    width: 50%;
+    height: 30%;
+    padding: 15px;
+}
+.action_ui_group label{
+    padding-bottom: 10px;
+}
+.action_ui_group{
+    width:30%;
+    float:left;
+    margin-right: 4%;
+}
+
+.action_ui_group input{
+    background: none;
+    vertical-align: top;
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    height: 40px;
+    line-height: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 14px 2px 28px;
+    border-radius: 0;
+    width: 50%;
+    outline: none;
+    border: 1px solid #414a60;
+    position: relative;
+    z-index: 1;
+}
+.action_ui_group input,.action_ui_group span.input-btn{
+    float:left;
+}
+.action_ui_group .plus{
+    border-radius: 0 3px 3px 0;
+    margin-left: -1px;
+    line-height: 36px;
+   
+}
+.action_ui_group .input-btn{
+    width:25%;
+    text-align: center;
+    border: 1px solid #414a60;
+    height: 40px;
+    line-height: 40px;
+}
+.action_ui_group .minus{
+    border-radius: 3px 0 0 3px;
+    line-height: 36px;
+   
+}
+/* canvas{
+    box-shadow: -10px -16px 17px 12px #000;
+} */
+.btn_area{
+    width:100%;
+    text-align:center;
+}
+.buy_tr .sell{
+    color:#28a745;
+}
+.buy_tr .buy{
+    color:#dc3545;
+}
+body{
+    background-color:#242c3e;
+}
+*{
+    color:#7d8da1;
+}
+.list-group-item{
+    font-size:10px;
+    background-color:#1c2333
+}
+.buy_button{
+    
+background: linear-gradient(#D4225D,#D42260);
+}
+.sell_button{
+
+background: linear-gradient(#87C651,#52D361);
+}
+
+
+.aside-left{
+    position: fixed;
+}
+.header{
+    top:-31px;
+}
+.header .user{
+    top: 40%;
+}
+

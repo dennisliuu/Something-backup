@@ -1,0 +1,73 @@
+{
+  "name": "Line_Marketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "childprocess": "^2.0.2",
+    "electron-updater": "^4.0.6",
+    "find-process": "^1.4.2",
+    "path": "^0.12.7",
+    "popups": "^1.1.3"
+  },
+  "build": {
+    "productName": "Line超級行銷軟體",
+    "appId": "com.mfg.Line",
+    "copyright": "on 2019",
+    "directories": {
+      "output": "build"
+    },
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://line.testcat.ga/donwload/"
+      }
+    ],
+    "extraResources": [
+      {
+        "from": "./resources/Tool/",
+        "to": "Tool",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "./resources/G_Line_Start.exe",
+        "to": "G_Line_Start.exe"
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "cat.ico",
+      "uninstallerIcon": "cat.ico",
+      "installerHeaderIcon": "cat.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Line_Marketing"
+    },
+    "win": {
+      "icon": "cat.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "ps-node": "^0.1.6"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

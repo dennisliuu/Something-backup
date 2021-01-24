@@ -1,0 +1,66 @@
+/*
+
+* Override Pages default styles or create your own styles here
+
+*/
+.input_tag{
+    float:left;
+    min-height:100px;
+    width:100%;
+    border:1px solid rgba(230, 230, 230, 0.7);
+}
+.full_size_tag_area{
+    height:100%;
+}
+.keyword-tag{
+    min-height: 200px;
+    width:100%;
+}
+.tag-element{
+    width: auto;
+    background: #555;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    margin:5px;
+}
+#job_tag .add_tag .select2-container{
+    width:100% !important;
+}
+.area_select{
+    display:none;
+}
+.tag-icon-close{
+    cursor: pointer;
+
+}
+.tag-icon-close:hover{
+    color:#ccc;
+}
+
+.select2-tag{
+    width:100px;
+}
+.area-select-item{
+    display:none;
+}
+.select2-selection__choice{
+    color:#000 !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    cursor: pointer;
+   
+    
+}
+.select2-container .select2-selection .select2-selection__rendered .select2-selection__clear{
+    font-weight: normal;
+    right: 16px;
+    margin-right: -9px;
+    width: 20px;
+    text-align: center;
+    color: #000;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple:hover{
+    background: #ccc;
+}

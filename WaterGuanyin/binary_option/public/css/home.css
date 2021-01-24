@@ -1,0 +1,45 @@
+#chart_con{
+    height:60vh;
+}
+
+canvas{
+    box-shadow: -10px -16px 17px 12px #000;
+}
+.btn_area{
+    width:100%;
+    text-align:center;
+}
+.buy_tr .sell{
+    color:#28a745;
+}
+.buy_tr .buy{
+    color:#dc3545;
+}
+body{
+    background-color:#242c3e;
+}
+*{
+    color:#7d8da1;
+}
+.list-group-item{
+    font-size:10px;
+    background-color:#1c2333
+}
+.buy_button{
+    
+    background: linear-gradient(#D4225D,#D42260);
+    }
+    .sell_button{
+    
+        background: linear-gradient(#87C651,#52D361);
+        }
+
+
+        .aside-left{
+            position: fixed;
+        }
+
+
+.item__inner:hover {
+    border-color: #3099f5 !important;
+    }

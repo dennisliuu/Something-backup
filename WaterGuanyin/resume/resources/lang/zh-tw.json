@@ -1,0 +1,12 @@
+{
+  "Products": "產品",
+  "Address": "地址",
+  "Image": "圖片",
+  "Type": "類型",
+  "Size": "坪數",
+  "Price": "價錢",
+  "Action": "編輯",
+  "Cancel": "取消",
+  "Room_num":"房數",
+  "Rest_num":"廳數"
+}

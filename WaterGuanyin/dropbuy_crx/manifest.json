@@ -1,0 +1,47 @@
+{
+  "name": "順買Dropbuy小怪獸",
+  "description": "順買Dropbuy小怪獸",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mpglobal.donki.com/*",
+        "https://www.hasegawasaketen.com/*",
+        "https://www.uniqlo.com/*",
+        "https://www.biccamera.com/*",
+        "https://www.onitsukatigermagazine.com/*",
+        "https://www.coach.com/*",
+        "https://www.lego.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "bootstrap.min.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "scripts": [
+      "background.js"
+    ],
+    "default_icon": "monster_icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "icons": {
+    "16": "monster_icon.png",
+    "48": "monster_icon.png",
+    "128": "monster_icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
